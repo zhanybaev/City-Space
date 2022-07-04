@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(./assets/headerBackground.svg);
+    background-size: cover;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav__item{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.logo{
+    margin-left: 60px;
+}
+
+.navlinks{
+    width: 752px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlink{
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+}
+
+.lang{
+    margin-right: 60px;
+}
+
+.header__content{
+    max-width: 1000px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+}
+
+.header__content h1{
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 70.4px;
+    color: rgba(255, 255, 255, 1);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.section1{
+    width: 1167px;
+    height: 327px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.section1 h2{
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Inter';
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    font-size: 48px;
+}
+
+.directions-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.directions_item{
+    width: 543px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.directions_item .item__title{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0.15);
+
+}
+
+.directions_item .item__text{
+    margin-left: 24px;
+}
+
+.directions_item .item__text p{
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+}
+
+.directions_item .item__text span{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.section2{
+    margin-top: 240px;
+    background-image: url(./assets/backgroundMap.svg);
+    background-size: cover;
+    min-height: 625px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section2__head{
+    margin-top: 160px;
+    align-self: center;
+    text-align: center;
+}
+
+.section2__head h2{
+    font-weight: 500;
+    font-size: 88px;
+}
+
+.section2__head p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    letter-spacing: 0.24em;
+}
+
+.section2_content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 220px;
+}
+
+.section2_content-left h3{
+    font-size: 90px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.section2_content-left p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.section2_content-right{
+    width: 40%;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section3{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.section3__block1{
+    background-image: url(./assets/Frame\ 3.png);
+    width: 100%;
+    min-height: 530px;
+}
+
+.section3__block2{
+    background-image: url(./assets/Frame\ 4.png);
+    width: 100%;
+    min-height: 530px;
+    margin-top: 20px;
+}
+
+.section3__block-head{
+    color: rgba(167, 204, 74, 1);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.section3__block-price{
+    font-weight: 500;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.section3__block-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 32px;
+    margin-left: 80px;
+    width: 68%;
+    line-height: 150%;
+}
+
+.section4{
+    margin-top: 163px;
+    width: 75%;
+    display: flex;
+}
+
+.section4__left{
+    width: 75%;
+}
+
+.section4__left p{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44.8px;
+}
+
+.section4__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 104px;
+}
+
+.section4__right img{
+    width: 120px;
+}
